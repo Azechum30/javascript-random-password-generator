@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: #1F2937;
+    color: #FFF;
+    padding-top: 125px;
+}
+
+.container > h1{
+    margin-left: 52px;
+    font-family: 'Inter', 'Karla', sans-serif;
+    width: 352px;
+    height: 80px;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+    margin-bottom: 3px;
+    
+}
+
+#span{
+    color: #4ADF86;
+}
+
+.container > h4{
+   width: 380px;
+   height: 28px;
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 20px;
+   color: #D5D4D8; 
+   margin-left: 52px;
+   margin-top: 20px;
+   margin-bottom: 50px
+}
+
+.container > button{
+    background-color: #10B981;
+    border: none;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    box-shadow: 0 1 5 #000000;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 52px;
+}
+
+.container > #line{
+    width: 80%;
+    background-color: #2F3E53;
+    border: 1px solid #2F3E53;
+    margin-top: 0;
+    
+}
+
+.container > .label-el{
+    width: 211px;
+    height: 39px;
+    background-color:#2F3E53;
+    margin-top: 40px;
+    text-align: center;
+    color: #10B981;
+    text-align: center;
+    
+}
+
+.display-btn-el{
+    width: 550px;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display-btn-el > input{
+    background-color: #273549;
+    border: none;
+    width: 191px;
+    height: 30px;
+    border-radius: 6px;
+    padding: 9px 15px 9px 15px;
+    color: #10B981;
+    margin-top: 30px;
+    box-shadow: 0 1 5 #000000;
+    text-align: center;
+    user-select: none;
+}
+
+.button{
+    position: absolute;
+    font-size: 10px;
+    background-color:#6d6875;
+    border: none;
+    color: #FFF;
+    text-shadow: 0 0 20px black;
+    outline: none;
+
+}
+
+#copy{
+    top: 458px;
+    left: 420px
+}
+
+#copy1{
+    top: 458px;
+    left: 648px
+}
